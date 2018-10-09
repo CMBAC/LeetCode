@@ -14,7 +14,7 @@
 ]
 
 思路：参考<a href="https://leetcode.com/problems/permutations/discuss/18239/
-A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)"/> 大佬的解法
+A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)"> 大佬的解法</a>
 回溯，[1]==》[1,2]进行递归，在[1,2,3]的时候将集合中值存入结果集合中，回溯到[1]，再由[1]==>[1,3]，再进行递归
 ```java
 class Solution {
