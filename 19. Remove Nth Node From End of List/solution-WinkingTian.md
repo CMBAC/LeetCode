@@ -1,7 +1,7 @@
 
- - 思路：一次遍历（思路来自于网络大佬，推荐解法）
+# 思路：一次遍历（思路来自于网络大佬，推荐解法）
  
- <pre><code>
+```java
 
  /**
  * Definition for singly-linked list.
@@ -31,4 +31,4 @@ class Solution {
         return head;       
     }
 }
-</code></pre>
+```
